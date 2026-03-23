@@ -24,6 +24,10 @@
   "homepage": "https://www.ozor.ai",
   "skills": {
     "ozor-video-best-practices": "skills/ozor-video-best-practices",
-    "ozor-doc-to-video": "skills/ozor-doc-to-video"
+    "ozor-doc-to-video": "skills/ozor-doc-to-video",
+    "ozor-changelog-to-video": "skills/ozor-changelog-to-video",
+    "ozor-landing-page-to-video": "skills/ozor-landing-page-to-video",
+    "ozor-social-batch": "skills/ozor-social-batch",
+    "ozor-prompt-optimizer": "skills/ozor-prompt-optimizer"
   }
 }

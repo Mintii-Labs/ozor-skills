@@ -18,6 +18,30 @@ Converts any document (PDF, PowerPoint, blog post, README, changelog, URL) into 
 
 **Triggers on:** "turn this doc into a video", "video from this PDF", "video from my pitch deck", "convert this to a video", and more.
 
+### 📋 ozor-changelog-to-video
+
+Transforms changelogs, release notes, and version updates into polished release announcement videos. Parses change categories, prioritizes user-facing features, and structures scenes with version badges, feature highlights, and update CTAs.
+
+**Triggers on:** "video from my changelog", "release notes video", "announce this release", "version update video", "what's new video", and more.
+
+### 🌐 ozor-landing-page-to-video
+
+Converts any landing page or website URL into a video prompt. Extracts hero headlines, value propositions, social proof, and CTAs from web content and produces platform-appropriate video prompts that match the brand's visual identity.
+
+**Triggers on:** "video from my website", "landing page to video", "turn my homepage into a video", "video from this URL", and more.
+
+### 📱 ozor-social-batch
+
+Generates a coordinated batch of social media video prompts for multiple platforms from a single input. Each platform gets a unique angle — not just a resized copy — respecting platform-specific formats, durations, and audience conventions.
+
+**Triggers on:** "social media videos", "videos for all platforms", "Instagram and TikTok video", "social campaign", "batch of social videos", and more.
+
+### ✨ ozor-prompt-optimizer
+
+Analyzes existing Ozor prompts and rewrites them for better output quality. Scores prompts on six dimensions (specificity, structure, constraints, visual direction, audience awareness, CTA), diagnoses issues, and produces an optimized rewrite.
+
+**Triggers on:** "improve this prompt", "optimize my Ozor prompt", "why did my video look bad", "fix this prompt", "review my Ozor prompt", and more.
+
 ## Installation
 
 ### Claude Code (via plugin marketplace)
@@ -29,6 +53,10 @@ Converts any document (PDF, PowerPoint, blog post, README, changelog, URL) into 
 # Install individual skills
 /plugin install ozor-video-best-practices@ozor-skills
 /plugin install ozor-doc-to-video@ozor-skills
+/plugin install ozor-changelog-to-video@ozor-skills
+/plugin install ozor-landing-page-to-video@ozor-skills
+/plugin install ozor-social-batch@ozor-skills
+/plugin install ozor-prompt-optimizer@ozor-skills
 ```
 
 ### Claude Code (manual)
@@ -36,8 +64,7 @@ Converts any document (PDF, PowerPoint, blog post, README, changelog, URL) into 
 ```bash
 # Clone and copy to your skills directory
 git clone https://github.com/ozor-ai/ozor-skills.git
-cp -r ozor-skills/skills/ozor-video-best-practices ~/.claude/skills/
-cp -r ozor-skills/skills/ozor-doc-to-video ~/.claude/skills/
+cp -r ozor-skills/skills/* ~/.claude/skills/
 ```
 
 ### npx (one-liner)
